@@ -1,0 +1,3 @@
+video_id,comment_id,author,like_count,text,published_at
+vid123,1,userA,5,"Amazing trailer! Hyped.",2024-01-01
+vid123,2,userB,1,"Looks mid tbh.",2024-01-02

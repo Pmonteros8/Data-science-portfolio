@@ -1,0 +1,14 @@
+pandas
+numpy
+requests
+plotly
+python-dotenv
+streamlit
+scikit-learn
+shap
+matplotlib
+tqdm
+transformers
+torch
+google-api-python-client
+nbformat
