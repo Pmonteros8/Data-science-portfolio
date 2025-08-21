@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects — Pablo Monteros</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+  <header class="container">
+    <h1>Projects</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="resume.pdf">Download Resume</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="project1" class="card">
+      <h2>Project 1 — WBD Content Intelligence Dashboard</h2>
+      <p>Combines TMDB, OMDb/IMDb, and Wikipedia Pageviews to spot titles that overperform on audience interest vs. ratings.</p>
+      <ul>
+        <li>Notebook: <code>notebooks/project1_wbd_dashboard.ipynb</code> (add later)</li>
+        <li>App: <code>apps/wbd_dashboard_app.py</code> (add later)</li>
+      </ul>
+    </section>
+
+    <section id="project2" class="card">
+      <h2>Project 2 — YouTube Trailer Sentiment (Transformers)</h2>
+      <p>Pulls trailer comments with the YouTube Data API and runs DistilBERT for sentiment analysis.</p>
+      <ul>
+        <li>Notebook: <code>notebooks/project2_youtube_sentiment.ipynb</code> (add later)</li>
+      </ul>
+    </section>
+
+    <section id="project3" class="card">
+      <h2>Project 3 — OTT Subscription Churn (Synthetic + SHAP)</h2>
+      <p>Generates a custom OTT churn dataset, trains models, and explains predictions with SHAP.</p>
+      <ul>
+        <li>Notebook: <code>notebooks/project3_ott_churn.ipynb</code> (add later)</li>
+        <li>Generator: <code>projects/generate_ott_churn.py</code> (add later)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© <span id="year"></span> Pablo Monteros</p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

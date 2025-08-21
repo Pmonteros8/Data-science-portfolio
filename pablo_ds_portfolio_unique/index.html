@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pablo Monteros — Data Science Portfolio</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+  <header class="container">
+    <h1>Pablo Monteros</h1>
+    <p>Data Science & Analytics — Machine Learning • NLP • Visualization</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="resume.pdf">Download Resume</a>
+      <a href="mailto:Pablo.monterosj@gmail.com">Contact</a>
+      <a href="https://github.com/Pmonteros8" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/pmonteros/" target="_blank">LinkedIn</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>About</h2>
+      <p>Hi, I’m Pablo — I build entertainment analytics projects with live data (TMDB, OMDb/IMDb, Wikipedia, YouTube) and explainable ML.</p>
+    </section>
+
+    <section class="grid">
+      <a class="card card-link" href="projects.html#project1">
+        <h3>WBD Content Intelligence Dashboard</h3>
+        <p>TMDB + OMDb/IMDb + Wikipedia Pageviews merged for rating vs. interest insights.</p>
+      </a>
+      <a class="card card-link" href="projects.html#project2">
+        <h3>YouTube Trailer Sentiment (Transformers)</h3>
+        <p>Live trailer comments via YouTube API, DistilBERT sentiment.</p>
+      </a>
+      <a class="card card-link" href="projects.html#project3">
+        <h3>OTT Churn (Synthetic + SHAP)</h3>
+        <p>Custom OTT churn dataset, predictive models, and explainability.</p>
+      </a>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© <span id="year"></span> Pablo Monteros — Built with GitHub Pages</p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
